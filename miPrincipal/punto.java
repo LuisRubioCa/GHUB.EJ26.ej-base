@@ -28,4 +28,9 @@ public class punto {
     public int leerY(){
         return y;
     }
+
+    public String obtenerDetalles(){
+        return " x = "+x+" y = "+y;
+        
+    }
 }
